@@ -362,8 +362,15 @@ padding-top: 1px;
     color: white;
     font-family: 'Varela Round', sans-serif;
     font-size: 100px;
-     position: relative;
+     /*position: relative;*/
 }
+
+.container img{
+  width:100%;
+
+
+}
+
 
 .top-left {
     position: absolute;
@@ -422,22 +429,16 @@ footer {
 }
 
 
-@media (max-width: 1155px){
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
 
-.toggle {
-    display: block;
-    color: white;
-    font-size: 25px;
-    float: right;
-    line-height: 70px;
-    margin-right: 20px;
+    .menu{
+      visibility: hidden;
+    }
+
 }
-
-
-
-
-
-
 
 
 ..............................................................................
