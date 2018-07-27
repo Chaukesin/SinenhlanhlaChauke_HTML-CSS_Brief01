@@ -5,6 +5,25 @@ body {
     width: 100%;
     }
 
+.top {
+  display: block;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  background-color: #EA3719;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.top:hover {
+  background-color: white;
+  color: #EA3719;
+}
 
     .menu{
       padding: 25px;
@@ -82,7 +101,7 @@ h1{
 .back img{
 
     
-    background-image: url(../img/source.gif);
+    background-image: url(../img/trumpet.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: 120%;
