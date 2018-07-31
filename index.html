@@ -1,189 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Masego website redesign</title>
-  <link href="masego.png" rel="icon" type="image/png">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+      <meta charset="UTF-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Minimal Responsive Navigation | HTML & CSS</title>
+       <link href="favicon.png" rel="icon" type="image/png">
+      <link rel="stylesheet" href="master.css">
+      <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-
-  <!-- POLYFILLS -->
+<!-- POLYFILLS -->
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
 </head>
 <body>
-  <a href="#" class="top"> TOP</a>
-  <nav>
-    <div id="logo">
-        <img class="logo" src="img/masego.png">
-        <h1>The Captains Log</h1>
-    </div>
-    <label for="drop" class="toggle"><i class="fa fa-bars" aria-hidden="true"></i></label>
-    <input type="checkbox" id="drop">
 
-    <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#captains">Captains logs</a></li>
-        <li><a href="#baddies">Know your enemy</a></li>
-        <li><a href="#contact">Make Contact</a></li>
-    </ul>
-    </nav>
+	<a href="#" class="top"> TOP</a>
+      <!-- NAVIGATION -->
 
-  <main>
-    
-    <section class="back">
-
-      <img alt="background" src="img/background.png">
-     
-
-    </section>
-
-
-
-
-    <div class="blob" id="top"> 
-
-      <div class="about" >  
-       <h1>ABOUT</h1>
-       <hr>
-
-
-      <p>Micah Davis (born June 8, 1993), better known by his stage name Masego, is a Jamaican-American musician with South African roots. Masego is an international, contemporary genre bending entertainer who refers to his own music style as "TrapHouseJazz" or Emotion. His collaborative record “Tadow” has amassed over 35 million views on Youtube. His record Navajo, first premiered by Berlin platform “Colors” has been streamed over 20 million times, triggering a worldwide sold out tour.</p>
-
-      
-
-        <p>Davis speaks about learning piano, sax and various drum machines, to impress his crush back in his years in school. It was in Highschool Davis adopted the name Masego after finding out his family had roots in South Africa. He did his senior project on South African culture and came across the name “Masego” and it’s meaning Blessing in Tswana. .</p>
-
-        <button class="buttons"  href="https://en.wikipedia.org/wiki/Masego_(musician) " >READ MORE </button>
+      <div class="container">
+            <nav>
+                  <input type="checkbox" id="nav" class="hidden">
+                  <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                  </label>
+                  <div class="logo">
+                        <a href="#"><img src="img/masego.png"></a>
+                  </div>
+                  <div class="nav-wrapper">
+                        <ul>
+                              <li><a href="#aboutdude">ABOUT</a></li>
+                              <li><a href="#tourdatesdude" >TOUR</a></li>
+                              <li><a href="#gallerydude">GALLERY</a></li>
+                              <li><a href="#subscribe">SUBSCRIBE</a></li>
+                        </ul>
+                  </div>
+            </nav>
       </div>
 
-       
+<!-- MAIN SECTION -->
+<main>
+      <section class="section1" >
 
-      <div class="png">
-      <img alt="blob" src="img/blob.png">
-      </div>
+            <img src="img/background.png">
+            
+      </section>
 
-      
+       <section class="section2"   id="aboutdude">
 
-    </div>
-
-
-
-  <section class="tours" id="tour">
-  <!-- <hr> -->
-          <p> ------------------------------------------------------------TOUR </p>
-          
-        </section>
-  
-
-       <div id="main">
-        
-    
-
-        
-       <div class="wholetour"> 
+           <div id="vidtop-content">
+<div class="vid-info">
+	  <h1>Micah "Masego" Davis- TrapHouseJazz influencer</h1>
+	  <p>Micah Davis was born to a Jamaican father and American mother. Father was in the U.S AirForce, and mother was an Entrepreneur. Both his mother and father were pastors and he was raised in a non denominational Christian home. The military travels eventually led his family to Virginia. Here, Davis was shaped into the musician he is today. Davis used to beat on books at a young age, which eventully led to the drums becoming his first instrument learned with no formal lessons. Davis speaks about learning piano, sax and various drum machines, to impress his crush back in his years in school. It was in Highschool Davis adopted the name Masego after finding out his family had roots in South Africa. 
+     <p>
+	 <a href="https://en.wikipedia.org/wiki/Masego_(musician)">Full article</a>
+  </div>
 
 
 
-         <div class="leftimage">
+            <!-- <img src="blob.png"> -->
+            
+      </section>
 
-        <img src="img/tour.jpg">
-       <!--  <img src="img/tourtext.png"> -->
+    <!--   <div class="section3">
 
-         </div> 
+          <iframe width="1920" height="1080" src="https://www.youtube.com/embed/fuAE3U1NvOs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            
 
-         
-         
-        
+      </div> -->
 
-     
 
-  <div class="list">
-    <!-- <div class="list-header">
-      <h2 class="list-title">TOUR DATES</h2>
-    </div> -->
+
+      <!-- TOUR DATES -->
+
+<div class="list">
+
+   <div class="tourhed"  id="tourdatesdude"> 
+<h1 >TOUR DATES </h1>
+  </div>
+
     <div class="card-list">
       <div class="card"> <a href="" target="_blank" class="card-title">Mount Rainier, US </a>  <p> </p>
 
       
-        <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
          
       </div>
 
       <div class="card"> <a href="" target="_blank" class="card-title">Louisiana, US </a>
 
-        <button class="button"   href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
 
      </div>
 
       <div class="card"> <a href="" target="_blank" class="card-title">Atlanta, US </a>
 
-        <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">New York City, US</a>
 
-       <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+       <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
 
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">Las Vegas, US </a>
 
-        <button class="button"   href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">Missisipi, US </a>
 
-        <button class="button"   href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">Texas, US </a>
 
-       <button class="button"   href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+       <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">California, US </a>
 
-        <button class="button"   href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">San Fransisco, US </a>
 
-        <button class="button"   href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">Los Angeles, US </a>
 
-       <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+       <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
       <div class="card"> <a href="" target="_blank" class="card-title">Washington DC, US </a>
 
-        <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
 
       <div class="card"> <a href="" target="_blank" class="card-title">New Orleans, US </a>
 
-       <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+       <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
 
        <div class="card"> <a href="" target="_blank" class="card-title">Arkansas, US </a>
 
-        <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
 
       <div class="card"> <a href="" target="_blank" class="card-title">Cansas, US </a>
 
-        <button class="button"  href="http://www.ticketfly.com/event/1669965-2018-summer-spirit-festival-columbia/?utm_medium=459899">RSVP</button>
+        <button class="button">RSVP</button>
         <button class="button2">BUY TICKETS</button>
       </div>
 
@@ -195,67 +171,73 @@
 
      </div>
 
+<!-- GALLERY -->
 
-     <div id="gallery" >
+<header class="gallery" id="gallerydude">
+  <div class="headinggallery"> 
+<h1>GALLERY</h1>
+  </div>
+ 
 
+<div><img src="img/first.jpg" alt></div>
+<div><img src="img/second.jpg" alt></div>
+<div><img src="img/maseg.jpg" alt></div>
+<div><img src="img/masegot.jpg" alt></div>
+<div><img src="img/masegos.jpg" alt></div>
+  <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+</header>
 
-     	<p> GALLERY ------------------------------------------------------------</p>
-
-
-     	<div class="polaroids">
-     		<img src="img/polaroid1.png">
-     		<img src="img/polaroid2.png">
-     		<img src="img/polaroid3.png">
-     		<img src="img/polaroid4.png">
-     		<img src="img/polaroid5.png">
-     		<img src="img/polaroid4.png">
-     		<img src="img/polaroid3.png">
-     		
-     		<!-- <img src="img/polaroid2.png">
-     		<img src="img/polaroid1.png"> -->
-     		
-     		
-     		
-     	</div>
-     
-
-     </div>
+<!-- MAILING LIST -->
 
 
 
-
-
-<div class="container" id="subscribe">
-  <img src="img/contact.png" alt="contact me" >
+<div class="mailing" id="subscribe"  id="subscribedude">
+  <img src="img/contact.png" alt="Snow" ">
  
   <div class="top-left">"JOIN MY MAILING</div>
-  <div class="centered">EMAIL ADDRESS</div>
-  <div class="top-right">LIST!!"</div>
-  <button class="bottom-right">SUBMIT</button>
 
-<!--  <form action="/action_page.php">
-  Email Aress: <input type="text" name="email" size="35"><br>
- 
-  <input type="submit" value="Submit">
-</form> -->
+ <div class="email-submit-wrap">
+							<div class="mlist-field email-field">
+								<input id="email" name="email" tabindex="-1" type="email" class="m-required m-email" placeholder="Email Address"></div>
+							<div class="mlist-submit submit-field button-hover">
+								<input class="submit" type="submit" value="submit"></div>
+						</div>
+					
+
+  <div class="top-right">LIST!!"</div>
+<!--   <button class="bottom-right">SUBMIT</button> -->
+
+
+
 
    
  
 
 </div>
 
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
 <footer>
 
-	 <div class="copy"> &copy; COPYRIGHT 2018 MASEGO | PRIVACY POLICY | TERMS OF USE | AD CHOICES</div>
+	 <div class="copy"> &copy; COPYRIGHT 2018 MASEGO  |  PRIVACY POLICY  |  TERMS OF USE  |  AD CHOICES</di>
  
 
 	
 </footer>
 
 
+</main>
 
 
 
- </main>
+
+
 </body>
 </html>
